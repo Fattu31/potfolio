@@ -1,0 +1,270 @@
+.navigation{
+	position: fixed;
+    		background-image: linear-gradient(to right,#696e6e,#9bddde,#3a6566,#46a2a3);
+    		top: 0px;
+    		left: 0px;
+    		width: 100%;
+/*    		background: transparent;*/
+    		backdrop-filter: blur(20px);
+    		z-index: 5;
+/*        height: 90px;*/
+    	}
+  *{
+  	margin: 0px;
+  	padding: 0px;
+  	box-sizing: border-box;
+  	font-family: sans-serif;
+  	font-size: 20px;
+  }
+  .mymenus{
+  	font-weight: bolder;
+  	color: black;
+  }
+  .mymenus:hover{
+    color: whitesmoke;
+    text-decoration: underline 2px solid whitesmoke;
+  }
+  .f{
+           font-family: ;
+           font-size: 30px;
+    	}
+   .atema{
+    		font-size: 20px;
+    	}
+  .allsections{
+    		position: relative;
+    		top: 80px;
+    		width: 100%;
+    	}
+  .section{
+  	  width: 100%;
+  	  height: 100vh;
+  	  border: 5px solid skyblue;
+  }
+  html{
+  	scroll-behavior: smooth;
+  }
+  .home-section{
+/*    background-image: linear-gradient(to right, #90959e,#4c5057,#636f85,#636f85);*/
+/*    color: white;*/
+      border: none;
+      width: 100%;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5O_hzxYIXH0SfYRIB-Rq07CB8oV5sY3pjCQ&usqp=CAU);
+      background-repeat: no-repeat;
+      background-size: 40%;
+      background-position: 90% 2%;
+  } 
+ .about-section{
+ /* background-image: url(https://www.itl.cat/pngfile/big/34-341293_hd-backgrounds-for-phone-page-of-wallpaper-pink.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;*/
+   background-color: whitesmoke;
+   border: none;
+   width: 100%;
+   height: 500px;
+   display: flex;
+   padding: 20px;
+ }
+ .skills-section{
+/*  background-image: url(https://cdn.pixabay.com/photo/2018/05/02/08/37/skills-3367965_640.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;*/
+   background-color: white;
+   border: none;
+   height: 580px;
+   padding: 20px;
+
+ }
+ .project-section{
+  /*background-image: url(https://plus.unsplash.com/premium_photo-1661761077411-d50cba031848?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVzaW5lc3MlMjBvZmZpY2V8ZW58MHx8MHx8fDA%3D);
+  background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;*/
+   padding: 20px;
+   border: none;
+   height: 1200px;
+   background-color: whitesmoke;
+ }
+ .contact-section{
+  /*background-image: url(https://media.istockphoto.com/id/1453165336/photo/contact-us-message-on-cube-blocks-on-wood-table.webp?b=1&s=170667a&w=0&k=20&c=GKx_g65-OYapZ5Z0FPxz_VxVyNQBYJgYZbH7Hp7zupQ=);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;*/
+   border: none;
+   padding: 30px;
+ }
+ .myinfo{
+  height: 450px;
+  width: 50%;
+  margin: 10% 4%;
+ }
+ .info-home{
+  font-size: 30px;
+  font-family: Elephant;
+ }
+ .myname{
+  font-size: 50px;
+ }
+ .fsjd{
+  font-family: Elephant;
+  font-size: 30px;
+  color: brown;
+ }
+ .rsm{
+  height: 60px;
+  width: 120px;
+  margin: 20px 30px;
+  border: none;
+  background-color: royalblue;
+  color: white;
+  border-radius:10px;
+  font-family:Arial Black;
+ }
+ .rsm:hover{
+  background-color: white;
+  color: royalblue;
+  border: 3px solid royalblue;
+  transform: scale(1.1);
+ }
+ .aboutsect{
+  height: 500px;
+ }
+ .myimg{
+  width: 40%;
+ }
+ .cobj{
+   padding: 30px 60px;
+ }
+ .carrer{
+  text-align: justify;
+  font-size: 22px;
+  margin top: 50px;
+  text-indent: 20%;
+  font-family: sans-serif;
+  font-weight: bolder;
+  line-height: 40px;
+ }
+ .rows td{
+  padding: 10px;
+ }
+ .tbl{
+  margin-top: 50px;
+ }
+ .skill-head{
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-family: Arial Black;
+  color: brown;
+  font-variant: small-caps;
+/*  text-decoration: underline 3px solid royalblue;*/
+ }
+ .skillset{
+  font-weight: bolder;
+  font-family: sans-serif;
+ }
+.rows td div{
+  height: 200px;
+  border-radius: 20px;
+}
+.rows td div:hover{
+  box-shadow: 0px 0px 3px brown;
+}
+.card-img-top{
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  
+}
+.card-title{
+  color: brown;
+  font-weight: bolder;
+  font-variant: small-caps;
+}
+.all-projects{
+  margin-top: 40px;
+}
+.cnt-tbl{
+  margin-top: 30px;
+}
+.form-group{
+  width: 100%;
+}
+.btn{
+  align-items: center;
+}
+.form-check-input{
+
+}
+.form-group{
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding-top: 0px;
+    border-radius: 50px;
+    box-shadow: 0px,0px,20px,grey;
+}
+.form-control{
+  width: 100%;
+  align-items: center;
+}
+.btn-primary{
+  margin-left: 40%;
+}
+.la{
+  margin-right: 200px;
+}
+#inputEmail4{
+  width: 100%;
+}
+.btn{
+      border: none;
+      cursor: pointer;
+      height: 45px;
+      width: 160px;
+      background-color:skyblue ;
+      color: white;
+      font-family: Arial Black;
+      font-size: 20px;
+      border-radius: 7px;
+      
+    }
+    input
+    {
+      margin-bottom: 10px;
+      margin-left: 50%;
+        font-size: 15px;
+    }
+    .he{
+      padding: 20px;
+      margin-top: 50px;
+      font-variant: small-caps;
+      height: 10px;
+      color: brown;
+    }
+    .pa{
+      margin-left: 120px;
+      color: black;
+    }
+    .em{
+      padding: 20px;
+      margin-top: 50px;
+          height: 10px;
+          color: brown;
+    }
+    .ink{
+      margin-left: 0px;
+
+    }
+    .btn:hover{
+      background-color: white;
+      color: skyblue;
+      border: 2px solid skyblue;
+      transform: scale(0.9);
+
+    }
+    label{
+      color: brown;
+    }
+    
